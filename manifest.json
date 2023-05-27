@@ -1,0 +1,36 @@
+{
+	"name": "量大一卡",
+	"short_name": "量大一卡",
+	"start_url": "/",
+	"display": "standalone",
+	"background_color": "#058cee",
+	"description": "中国计量大学校园一卡通快速查看平台",
+	"orientation": "portrait-primary",
+	"theme_color": "#FFFFFF",
+	"icons": [
+		{
+			"src": "logo_1.png",
+			"sizes": "128x128",
+			"type": "image/png",
+			"purpose": "any"
+		},
+		{
+			"src": "logo_big_1.png",
+			"sizes": "1024x1024",
+			"type": "image/png",
+			"purpose": "any"
+		},
+		{
+			"src": "logo_2.png",
+			"sizes": "128x128",
+			"type": "image/png",
+			"purpose": "maskable"
+		},
+		{
+			"src": "logo_big_2.png",
+			"sizes": "1024x1024",
+			"type": "image/png",
+			"purpose": "maskable"
+		}
+	]
+}
