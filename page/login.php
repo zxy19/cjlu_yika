@@ -43,8 +43,8 @@
         <h1>计量一卡</h1>
         <p><?php if(isset($msg))echo $msg;else echo "请登录" ?></p>
         <div><br><br><a class="btn" href="?action=login">点击登录</a></div><br>
-        <div><small>继续操作即代表您同意本平台的<a href="eula.php">《用户协议》</a></small></div>
-        <p><a href="about.php">关于</a></p>
+        <div><small>继续操作即代表您同意本平台的<a href="./intro/eula.html">《用户协议》</a></small></div>
+        <p><a href="./intro/">关于</a></p>
     </div>
     <script src="webapp.js"></script>
 </body>

@@ -31,15 +31,26 @@
             color:white;
         }
     </style>
+    <script>
+        var ctd = 50;
+        setInterval(() => {
+            if(ctd==0){
+                location.reload();
+                document.getElementById("countdown").innerText="--";
+            }
+            if(ctd > 0 )document.getElementById("countdown").innerText=ctd+"s";
+            ctd--;
+        }, 1000);
+    </script>
 </head>
 <body>
     <div class="container">
         <h1>量大一卡</h1>
-        <div>点击图片可以刷新</div>
+        <div>点击图片可以刷新[<span id="countdown"></span>]</div>
         <img onclick="location.reload()" src="<?php echo $qrRes; ?>" alt="image">
         <div><small><?php echo htmlentities($nameRes); ?></small></div>
         <p>余额：￥ <?php echo htmlentities($ammountRes); ?></p>
-        <p><a href="?action=logout">登出</a>&nbsp;&nbsp;&nbsp;<a href="about.php">关于</a></p>
+        <p><a href="?action=logout">登出</a>&nbsp;&nbsp;&nbsp;<a href="./intro/">关于</a></p>
     </div>
     <script src="webapp.js"></script>
 </body>
