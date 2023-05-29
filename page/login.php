@@ -40,7 +40,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>计量一卡</h1>
+        <h1>量大一卡</h1>
         <p><?php if(isset($msg))echo $msg;else echo "请登录" ?></p>
         <div><br><br><a class="btn" href="?action=login">点击登录</a></div><br>
         <div><small>继续操作即代表您同意本平台的<a href="./intro/eula.html">《用户协议》</a></small></div>
